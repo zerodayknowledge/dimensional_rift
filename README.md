@@ -1,1 +1,2 @@
-<img src=”images/dimensional-rift.png" alt="Dimensional Rift"></img>
+![ScreenShot](images/dimensional-rift.png)
+Hello and good day to you.
