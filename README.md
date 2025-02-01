@@ -1,1 +1,1 @@
-<img src=”images/dimensional-rift.png">
+<img src=”images/dimensional-rift.png" alt="Dimensional Rift"></img>
