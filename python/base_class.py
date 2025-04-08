@@ -23,23 +23,25 @@ class base_class:
         #play with the value of variable "somevalue" to see the other code path execute
         somevalue=35
         if(somevalue<40):
-            print("Fuck You 1")
+            print("if Triggered")
 
     def if_else_ample(self):
         #play with the value of variable "somevalue" to see the other code path execute
         somevalue=35
         if(somevalue<40):
-            print("Fuck You 2")
+            print("if Triggered")
         else:
-            print("Fuck You Again 3")
+            print("else Triggered")
 
     def if_elif_example(self):
         #play with the value of variable "somevalue" to see the other code path execute
         somevalue=70
         if(somevalue<69):
-            print("Fuck You 5")
+            print("if Triggered")
         elif(somevalue>69):
-            print("Fuck You Again 6")
+            print("elif Triggered")
+        else:
+            print("else Triggered")
 
     def for_loop_with_integers_example(self):
         #print a santa greating
@@ -47,16 +49,16 @@ class base_class:
             print("Ho!")
 
     def for_loop_with_strings_example(self):
-        #print a bad santa greating
-        santa_talk =["Santa","likes","his","hoes!"]
+        #print a santa greating
+        santa_talk =["Santa","likes","his","snow!"]
         for x in santa_talk:
             print(x)
 
     def while_do_loop_example(self):
-        #print a bad santa greating
+        #print a santa greating
         x = 0
         while x<3:
-            print("Hoe!")
+            print("Ho!")
             x+=1
 
 
